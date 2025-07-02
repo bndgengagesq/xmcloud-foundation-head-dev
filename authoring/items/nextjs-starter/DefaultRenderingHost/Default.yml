@@ -1,18 +1,24 @@
----
+﻿---
 ID: "dffee92b-0441-45a4-9207-67810b72bd46"
 Parent: "895e25c4-12b2-4b2c-8233-82f3b79eef53"
 Template: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
 Path: /sitecore/system/Settings/Services/Rendering Hosts/Default
 SharedFields:
+- ID: "3121c257-53cf-464a-b736-98b418876057"
+  Hint: AppName
+  Value: "nextjs-starter"
+- ID: "94470b31-e282-4d8d-bc54-85689efb294c"
+  Hint: ServerSideRenderingEngineConfigUrl
+  Value: "http://rendering-nextjs:3000/api/editing/config"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8ee4b730-066d-42b2-b578-6b7c4c6a47fb"
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
   Value: "http://rendering-nextjs:3000"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
   Value: "http://rendering-nextjs:3000/api/editing/render"
-- ID: "94470b31-e282-4d8d-bc54-85689efb294c"
-  Hint: ServerSideRenderingEngineConfigUrl
-  Value: "http://rendering-nextjs:3000/api/editing/config"
 Languages:
 - Language: en
   Versions:
@@ -27,11 +33,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c9cd6f4c-0f8a-45af-8792-044e422401b0"
+      Value: "82dee888-c759-49f5-84b4-5badb34ee104"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\xmc-e2e-admin@sitecore.com
+        sitecore\bruce.davisgoff@engagesq.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220628T155530Z
+      Value: 20250701T225332Z
