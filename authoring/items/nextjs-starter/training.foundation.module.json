@@ -45,6 +45,12 @@
                 "scope": "ItemAndDescendants",
                 "allowedPushOperations": "CreateUpdateAndDelete"
             },
+            {
+                "name": "TrainingMediaLibrary",
+                "path": "/sitecore/media library/Project/Training/Training",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
              {
                 "name": "TrainingSiteData",
                 "path": "/sitecore/content/Training/Training/Data",
