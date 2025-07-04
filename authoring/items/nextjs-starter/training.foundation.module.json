@@ -1,0 +1,81 @@
+{
+    "$schema": "../../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Website",
+    "items": {
+        "includes": [
+            {
+                "name": "TrainingTemplates",
+                "path": "/sitecore/templates/Project/Training",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+             {
+                "name": "TrainingSettings",
+                "path": "/sitecore/content/Training/Training/Settings",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "TrainingPresentation",
+                "path": "/sitecore/content/Training/Training/Presentation",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "TrainingSiteCollection",
+                "path": "/sitecore/content/Training",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "TrainingSiteSite",
+                "path": "/sitecore/content/Training/Training",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "TrainingSiteHome",
+                "path": "/sitecore/content/Training/Training/Home",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "TrainingMedia",
+                "path": "/sitecore/content/Training/Training/Media",
+                "scope": "ItemAndDescendants",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+             {
+                "name": "TrainingSiteData",
+                "path": "/sitecore/content/Training/Training/Data",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "TrainingSiteDictionary",
+                "path": "/sitecore/content/Training/Training/Dictionary",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "TrainingSiteRenderings",
+                "path": "/sitecore/layout/Renderings/Project/Training",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "TrainingPlaceholderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/Training",
+                 "scope": "SingleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            }
+        
+
+        ]
+    }
+}
+
+
+
+
+

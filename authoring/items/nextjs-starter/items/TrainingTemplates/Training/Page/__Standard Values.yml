@@ -1,0 +1,43 @@
+﻿---
+ID: "04354358-9bda-4545-8d34-acb23d7d7ff6"
+Parent: "8c55275d-7d03-4a8a-be40-4a9342136e63"
+Template: "8c55275d-7d03-4a8a-be40-4a9342136e63"
+Path: /sitecore/templates/Project/Training/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8C55275D-7D03-4A8A-BE40-4A9342136E63}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e7d04ae1-b86c-4408-8644-16bd0cb5f3dc"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250704T013436Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\bruce.davisgoff@engagesq.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bruce.davisgoff@engagesq.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98d7c5e2-6bc7-47bb-8fed-821fbdec878d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bruce.davisgoff@engagesq.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250704T013439Z
+    - ID: "fa7006e4-624a-485d-b890-ff38c67678b3"
+      Hint: Title
+      Value: $name
